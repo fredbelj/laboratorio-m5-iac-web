@@ -12,7 +12,7 @@ variable "environment" {
 variable "site_codes" {
   description = "Sitios Edge simulados que deben tener una configuración administrada."
   type        = set(string)
-  default     = ["BOG-EDGE-01", "MED-EDGE-01"]
+  default     = ["BOG-EDGE-01", "MED-EDGE-01", "TES-EDGE-01"]
 }
 
 variable "service_port" {
